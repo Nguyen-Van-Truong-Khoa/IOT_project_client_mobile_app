@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/green"
+    app:layout_constraintCircleRadius="100dp"
+    android:layout_margin="60dp"
+    app:cardCornerRadius="50dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/car"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="46dp"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/spot_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spot"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="160dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        />
+</LinearLayout>

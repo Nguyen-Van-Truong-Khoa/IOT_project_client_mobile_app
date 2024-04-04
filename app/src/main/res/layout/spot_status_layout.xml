@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/wall_gradient"
+        tools:context=".spot_status"
+        android:columnCount="2"
+    >
+
+    <include
+        layout="@layout/spot_status"
+        android:id="@+id/spot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        />
+
+        <include
+            android:id="@+id/spot2"
+            layout="@layout/spot_status"
+            android:layout_margin="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </GridLayout>
+
+
+
